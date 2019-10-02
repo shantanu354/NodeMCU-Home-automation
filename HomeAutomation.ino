@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 using namespace std; 
  
-const char* ssid = "TP-LINK_A496"; // SSID i.e. Service Set Identifier is the name of your WIFI
-const char* password = "nahipata"; // Your Wifi password, in case you have open network comment the whole statement.
+const char* ssid = "Your_SSID"; // SSID i.e. Service Set Identifier is the name of your WIFI
+const char* password = "Your_PASSWORD"; // Your Wifi password, in case you have open network comment the whole statement.
 WiFiServer server(80); // Creates a server that listens for incoming connections on the specified port, here in this case port is 80.
 
 int pin1 = 9; // Sets the value for Pin1 of Relay
