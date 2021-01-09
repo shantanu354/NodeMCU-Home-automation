@@ -1,12 +1,14 @@
 #!/bin/sh
 declare -i percent
+
+# Set you'r laptop's files
 exec < /sys/class/power_supply/BAT1/capacity
 read percent
 status=true
 
 #Connection config
-ip=101
-output_pin=1
+ip=101 #Ardiono's IP Address
+output_pin=1 #Ardiono's O/P Pin
 
 #Battery Range config
 low=13
